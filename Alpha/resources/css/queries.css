@@ -1,0 +1,118 @@
+/* for big tablets to computer screen range from 1024 to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+
+/* for small tablets to big tablets range from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .section-steps {
+        margin-top: 10px;
+    }
+
+    .app-screen {
+        width: 80%;
+        float: initial;
+        margin-bottom: 50px;
+        margin-left: 70px;
+
+    }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .details {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+/* for small phones to small tablets range from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    body{font-size: 12px;}
+   section{padding: 30px 0;}
+   .row,
+   .hero-text-box{
+       padding: 0 4%;
+   }
+   .col{
+       width: 100%;
+       margin: 0 0 4% 0;
+   }
+   .column,
+   .column1,
+   .column2,
+   .column3{
+       width:100%;
+       margin: 0 0 4% 0;
+    }
+    .customer-test{height:1%;}
+    .btn-app{margin-bottom: 10%;}
+    .column steps{margin-top:0px;
+    padding-top: 0;
+}
+.long-copy{font-size:18px;}
+.col{font-size: 16px;}
+ol li{font-size: 16px;}
+h2{font-size: 30px;}
+blockquote{font-size: 18px;}
+.details{font-size: 18px;}
+h3{font-size: 20px;}
+.icon-check{font-size: 25px;}
+.plan-box{font-size: 20px;}
+.column4{font-size: 20px;}
+.main-nav{/*font-size: 12px;*/
+display: none;}
+.footer-nav{font-size: 14px;
+float: initial;}
+.copyright{font-size: 18px;}
+}
+
+/* for small phones range from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    section{padding: 25px 0;}
+    .contact-form{width: 100%;}
+}
+
+/* Random itself*/
+
+@media only screen and (max-width: 860px){
+    .main-nav{display: none;}
+}
